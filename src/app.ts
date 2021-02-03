@@ -4,7 +4,7 @@ import compression from "compression";
 import cookieParser from "cookie-parser";
 import bodyParser from "body-parser";
 import path from 'path';
-import { router } from '../router.main';
+import { router } from './router.main';
 
 (async () => {
   const app = express();
